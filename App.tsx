@@ -117,8 +117,8 @@ const SlideToPick: React.FC<{ onAccept: () => void }> = ({ onAccept }) => {
 const App: React.FC = () => {
   const [currentScene, setCurrentScene] = useState<Scene>(Scene.PRE_CALL);
   
-  // Using the most standard direct link format for Google Drive images
-  const incomingCallImage = "https://raw.githubusercontent.com/Osam-74/myval/main/public/images/image 1.png";
+  // Using local image from public folder
+  const incomingCallImage = "/image 1.png";
 
   useEffect(() => {
     let timer: any;
