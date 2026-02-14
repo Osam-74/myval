@@ -1,0 +1,7 @@
+{
+  "name": "Our Story — A Valentine Experience for Ifemi",
+  "description": "A cinematic, emotionally paced romantic story told through motion, timing, and anticipation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story — For Ifemi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #1a0a0a;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .text-glow {
+        text-shadow: 0 0 10px rgba(239, 68, 68, 0.1);
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      @keyframes beam {
+        0% { transform: translate(-10%, -10%) scale(1); }
+        50% { transform: translate(10%, 10%) scale(1.1); }
+        100% { transform: translate(-10%, -10%) scale(1); }
+      }
+      .animate-beam {
+        animation: beam 20s infinite ease-in-out;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.17?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.475.0?external=react,react-dom",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
