@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export const IntroHero: React.FC = () => {
   // Using local image from public folder - "Hey babe" background
-  const imageUrl = "/image 2.jpg";
+  const imageUrl = "/myval/image 2.jpg";
 
   return (
     <motion.div

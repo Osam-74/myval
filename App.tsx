@@ -118,7 +118,7 @@ const App: React.FC = () => {
   const [currentScene, setCurrentScene] = useState<Scene>(Scene.PRE_CALL);
   
   // Using local image from public folder
-  const incomingCallImage = "/image 1.png";
+  const incomingCallImage = "/myval/image 1.png";
 
   useEffect(() => {
     let timer: any;

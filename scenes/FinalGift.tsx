@@ -13,7 +13,7 @@ export const FinalGift: React.FC = () => {
   const [stage, setStage] = useState<FinalStage>(FinalStage.PROPOSAL);
 
   // Using local image from public folder - gift reveal
-  const giftImageUrl = "/image 3.png";
+  const giftImageUrl = "/myval/image 3.png";
 
   return (
     <div className="relative flex flex-col items-center justify-center h-full w-full p-6 text-center overflow-hidden bg-white">

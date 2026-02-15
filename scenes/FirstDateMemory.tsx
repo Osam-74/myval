@@ -41,7 +41,7 @@ export const FirstDateMemory: React.FC = () => {
           {stage === 2 && (
             <motion.img
               key="img1"
-              src="/image 4.png"
+              src="/myval/image 4.png"
               initial={{ x: '-100vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: '100vw', opacity: 0 }}
@@ -52,7 +52,7 @@ export const FirstDateMemory: React.FC = () => {
           {stage >= 3 && stage < 5 && (
             <motion.img
               key="img2"
-              src="/image 5.png"
+              src="/myval/image 5.png"
               initial={{ x: '100vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ opacity: 0 }}
