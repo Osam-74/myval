@@ -9,7 +9,7 @@ export const AudioController: React.FC = () => {
 
   useEffect(() => {
     // Using local audio file from public folder
-    const primaryUrl = "/myval/you.mp3";
+    const primaryUrl = "/myval/heart.mp3";
     const fallbackUrl = "https://cdn.pixabay.com/audio/2022/05/27/audio_1808f3030e.mp3";
 
     const playAudio = async () => {
